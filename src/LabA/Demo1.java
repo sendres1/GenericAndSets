@@ -69,6 +69,14 @@ public class Demo1 {
              System.out.println(item);
               
           }
+          
+          List<Employee> shoppingList2 = new ArrayList<>();
+          shoppingList2.add(e1);
+          shoppingList2.add(e1);
+          
+          Set<Employee> removeDupes = new HashSet<>(shoppingList2);
+          shoppingList = new.......
+         // one more line here 
         
         
     }
